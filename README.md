@@ -120,22 +120,25 @@ train_video/hazy_video/7_hazy_video 8 6 5 7
 ......
 ```
 
-|     the folder of current frame t     | t index | t matched index | t-1 matched index | t+1 matched index |
-|---------------------------------------|---------|-----------------|-------------------|-------------------|
-| train_video/hazy_video/7_hazy_video   | 7       | 5               | 5                 | 6                 |
+|    the folder of current frame t  |t index|t matched index|t-1 matched index|t+1 matched index|
+|-----------------------------------|-------|---------------|-----------------|-----------------|
+|train_video/hazy_video/7_hazy_video|   7   |       5       |        5        |        6        |
 
 
 ## 🏋️ Training DCL
 
-1. **Training model**. Place the *gopro_data* (preprocessed GoProHazy) folder, downloaded from Google Drive, into the `./data` folder, and then execute the following command:
+1. **Training model**. Place the *gopro_data* (preprocessed GoProHazy) folder, downloaded from [Google Drive](https://drive.google.com/drive/folders/12b_XvtUs7oc9HjfoS1JepmUJC2eI18vm), into the `./data` folder, and then execute the following command:
 
 ```bash
 python train.py --model_name DCL
 ```
 
-2. **Training Visualization**. 
+2. **Training Visualization**. The training and validation log files for DCL are saved in the train and val folders under ./logger/DCL. They can be visualized in TensorBoard using the following command:
 
-
+```bash
+cd DCL
+tensorboard --logdir=./logger/DCL
+```
 
 ## ⚡ Inference DCL on GoProHazy test set
 

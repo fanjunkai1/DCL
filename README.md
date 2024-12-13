@@ -60,14 +60,16 @@ pip install -r requirements.txt
 
 ## Download and Preprocess dataset
 
+The original DVD (CVPR 2024) dataset (1920x1080 size) can be downloaded from the following link:
+
 - **GoProHazy** dataset can be downloaded from [Baidu Drive](https://pan.baidu.com/s/1u_jFzZtUhG1528e1kkGmUQ#list/path=%2F)(hbih).
 - **DrivingHazy** dataset can be downloaded from [Baidu Drive](https://pan.baidu.com/s/1gQTV6F9bwnmKtmUohzi1Nw#list/path=%2F)(ei4j).
 - **InternetHazy** dataset can be downloaded from [Baidu Drive](https://pan.baidu.com/s/1WIZNwFH-re8ty6zJPjct6g#list/path=%2F)(p39a).
 
-For users who use Google Drive, you can download our dataset using this [link](https://drive.google.com/drive/folders/11CmFXT32a3QkCXc76-J_Wx2kgpE_hALu?dmr=1&ec=wgc-drive-globalnav-goto)
+For users who use Google Drive, you can download GoProHazy, DrivingHazy, and InternetHazy datasets using this [link](https://drive.google.com/drive/folders/11CmFXT32a3QkCXc76-J_Wx2kgpE_hALu?dmr=1&ec=wgc-drive-globalnav-goto)
 
 
-## Preprocess dataset
+## 🚀 Preprocess dataset
 
 All videos in these datasets are initially recorded at a resolution of 1920×1080. After applying distortion correction and cropping based on the intrinsic parameters K of the GoPro 11 camera (calibrated by us), the resolutions of GoProHazy and DrivingHazy are 1600×512.
 
@@ -110,7 +112,28 @@ preprocess
 
 **Note**: The preprocessed GoProHazy dataset can be downloaded [here](https://drive.google.com/drive/folders/12b_XvtUs7oc9HjfoS1JepmUJC2eI18vm).
 
-## 
+## 🏃 Data Split
+
+The data format in the `./split/gopro_fan` folder and the corresponding explanation are as follows:
+
+```bash
+......
+train_video/hazy_video/7_hazy_video 6 5 4 5
+train_video/hazy_video/7_hazy_video 7 5 5 6
+train_video/hazy_video/7_hazy_video 8 6 5 7
+......
+```
+
+
+|     the folder of current frame t     | t index | t matched index | t-1 matched index | t+1 matched index |
+|---------------------------------------|---------|-----------------|-------------------|-------------------|
+| train_video/hazy_video/7_hazy_video   | 7       | 5               | 5                 | 6                 |
+
+
+## ⚡ Inference DCL
+
+1. Move the trained model from `./logger/DCL/models` to the `./models/DCL` folder, or you can also download pretrained models form [GoogleDrive](https://drive.google.com/drive/folders/12b_XvtUs7oc9HjfoS1JepmUJC2eI18vm)
+
 
 
 

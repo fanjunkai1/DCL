@@ -81,6 +81,31 @@ python calibrate.py
 ```bash
 python preprocess.py
 ```
+The data organization for the ./preprocess folder is shown below:
+
+~~~
+preprocess
+|--gopro_preprocess
+   |--videos
+      |--test
+         |--clear_video
+            |--...
+         |--hazy_video
+            |--...
+         |--processed
+            |--...
+      |-- train
+         |--clear_video
+            |--1_clear_video.mp4
+            |--...
+         |--hazy_video
+            |--1_hazy_video.mp4
+            |--...
+         |--processed
+            |--clear_video
+            |--hazy_video
+            |--intrinsic.npy
+~~~
 
 
 

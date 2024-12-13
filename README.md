@@ -143,10 +143,18 @@ To visualize locally from a remote server, run `ssh -L 16006:127.0.0.1:6006 -p x
 
 ## ⚡ Inference DCL on GoProHazy
 
+Move the trained model from ./logger/DCL/models to the ./models/DCL folder, and then execute the following command:
 
+```bash
+python test_gopro_hazy.py --image_path ./data/gopro_data/test_video/hazy_video/24_hazy_video
+```
 
 ## ⚡ Inference DCL on DENSE-Fog
 
+```bash
+python test_dense_fog.py --image_path /opt/data/common/SeeingThroughFog/SeeingThroughFogCompressedExtracted --dataset densefog --load_weights_folder ./models/DCL
+python test_dense_fog.py --image_path /opt/data/common/SeeingThroughFog/SeeingThroughFogCompressedExtracted --dataset lightfog --load_weights_folder ./models/DCL
+```
 
 
 

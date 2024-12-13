@@ -1,0 +1,7 @@
+numpy == 1.23.0
+opencv-python == 4.5.5.64
+matplotlib == 3.6.2
+tensorboardX == 2.6.2.2
+imageio == 2.26.0
+pillow == 9.4.0
+scikit-image == 0.19.3

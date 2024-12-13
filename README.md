@@ -17,24 +17,29 @@
 </div>
 
 <div>
-    <h4 align="center">
+    <h2 align="center">
         <a href="" target='_blank'>AAAI 2025</a>
-    </h4>
+    </h2>
 </div>
 </div>
 
 We propose a novel depth-centric learning framework that integrates the atmospheric scattering model (ASM) with the brightness consistency constraint (BCC) constraint. Our key idea is that both ASM and BCC rely on a shared depth estimation network. This network simultaneously exploits adjacent dehazed frames to enhance depth estimation via BCC and uses the refined depth cues to more effectively remove haze through ASM.
 
-![teaser](doc/video_frame_results.png)
+<p align="center">
+  <img src="doc/demo.gif" alt="example input output gif" width="600" />
+</p>
+
+For more **video demos**, please refer to our [project homepage](https://fanjunkai1.github.io/projectpage/DCL/index.html).
 
 ## 📢 News
 - [13-12-2024] We created the [project homepage](https://fanjunkai1.github.io/projectpage/DCL/index.html) and the GitHub README.
 
-## 🎬 Video demo
-To demonstrate the stability of the proposed method, we separately compared it with the latest SoTA video dehazing (e.g., MAP-Net, DVD) and monocular depth estimation methods (e.g., Mono-ViFI, Lite-Mono) on GoProHazy. 
+## DCL Pipeline
 
-https://github.com/user-attachments/assets/55369027-acf9-4e47-83a8-dfa2f982bdfc
-
+Our Depth-Centric Learning (DCL) framework integrates the atmospheric scattering model with a brightness consistency constraint via shared depth prediction. $D_{MFIR}$ improves high-frequency detail in dehazed frames, while $D_{MDR}$ reduces black holes in depth maps from weakly textured areas.
+<p align="center">
+  <img src="doc/pipeline.png" width="750" height='500' />
+</p>
 
 ## ⚙️ Dependencies and Installation
 
@@ -63,7 +68,7 @@ The original DVD (CVPR 2024) dataset (1920x1080 size) can be downloaded from the
 - **DrivingHazy** dataset can be downloaded from [Baidu Drive](https://pan.baidu.com/s/1gQTV6F9bwnmKtmUohzi1Nw#list/path=%2F)(ei4j).
 - **InternetHazy** dataset can be downloaded from [Baidu Drive](https://pan.baidu.com/s/1WIZNwFH-re8ty6zJPjct6g#list/path=%2F)(p39a).
 
-For users who use Google Drive, you can download GoProHazy, DrivingHazy, and InternetHazy datasets using this [link](https://drive.google.com/drive/folders/11CmFXT32a3QkCXc76-J_Wx2kgpE_hALu?dmr=1&ec=wgc-drive-globalnav-goto)
+Google Drive users can download the GoProHazy, DrivingHazy, and InternetHazy datasets via this [link](https://drive.google.com/drive/folders/11CmFXT32a3QkCXc76-J_Wx2kgpE_hALu?dmr=1&ec=wgc-drive-globalnav-goto)
 
 
 ## 🚀 Preprocess dataset
@@ -121,8 +126,8 @@ train_video/hazy_video/7_hazy_video 8 6 5 7
 ```
 
 |    the folder of current frame t  |t idx|t matched idx|t-1 matched idx|t+1 matched idx|
-|-----------------------------------|-------|---------------|-----------------|-----------------|
-|train_video/hazy_video/7_hazy_video|   7   |       5       |        5        |        6        |
+|:---------------------------------:|:---:|:-----------:|:-------------:|:-------------:|
+|train_video/hazy_video/7_hazy_video|  7  |       5     |       5       |       6       |
 
 
 ## 🏋️ Training DCL
@@ -133,7 +138,7 @@ train_video/hazy_video/7_hazy_video 8 6 5 7
 python train.py --model_name DCL
 ```
 
-2. **Training Visualization**. The training and validation log files for DCL are saved in the train and val folders under ./logger/DCL. They can be visualized in TensorBoard using the following command:
+2. **Training Visualization**. The training and validation log files for DCL are saved in the train and val folders under `./logger/DCL`. They can be visualized in TensorBoard using the following command:
 
 ```bash
 cd DCL
@@ -143,7 +148,7 @@ To visualize locally from a remote server, run `ssh -L 16006:127.0.0.1:6006 -p x
 
 ## ⚡ Inference DCL on GoProHazy
 
-Move the trained model from ./logger/DCL/models to the ./models/DCL folder, and then execute the following command:
+Move the trained model from `./logger/DCL/models` to the `./models/DCL folder`, or use our pre-trained model, which can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1sNgOyh-DIuxG3sdty_D24Ugo35qJ7dlr). Then, execute the following command:
 
 ```bash
 python test_gopro_hazy.py --image_path ./data/gopro_data/test_video/hazy_video/24_hazy_video
@@ -162,9 +167,24 @@ The output test results are saved in the `./outputs` folder.
 
 Our DCL achieved state-of-the-art performance on *GoProHazy* and *DENSE-Fog* datasets,
 
+<details open> 
+<summary>Visual Comparison (click to expand)</summary>
+
+- Visual comparison on GoProHazy
+  <p align="center">
+  <img width="750" src="doc/video_dehazing-results.png">
+  </p>
+- Visual comparison on DENSE-Fog
+  <p align="center">
+  <img width="750" src="doc/depth_estimation-results.png">
+  </p>
+  </p>
+  
+  </details>
+
 ## 🎓 Citation
 
-If you find the code helpful in your resarch or work, please cite the following paper(s).
+If you find the code helpful in your research or work, please cite the following paper(s).
 
 ```bibtex
 @inproceedings{fan2025depth,
@@ -188,7 +208,7 @@ If you find the code helpful in your resarch or work, please cite the following 
 This code is based on the [Monodepth2](https://github.com/nianticlabs/monodepth2). Thank them for their outstanding work.
 
 ## 📧 Contact
-Should you have any question or suggestion, please contact junkai.fan@njust.edu.cn.
+If you have any questions or suggestions, please contact junkai.fan@njust.edu.cn
 
 ## 🎫 License
 
@@ -197,29 +217,6 @@ This work is licensed under the Apache License, Version 2.0 (as defined in the [
 By downloading and using the code and model you agree to the terms in the  [LICENSE](LICENSE.txt).
 
 [![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

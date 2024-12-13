@@ -120,7 +120,7 @@ train_video/hazy_video/7_hazy_video 8 6 5 7
 ......
 ```
 
-|    the folder of current frame t  |t index|t matched index|t-1 matched index|t+1 matched index|
+|    the folder of current frame t  |t idx|t matched idx|t-1 matched idx|t+1 matched idx|
 |-----------------------------------|-------|---------------|-----------------|-----------------|
 |train_video/hazy_video/7_hazy_video|   7   |       5       |        5        |        6        |
 

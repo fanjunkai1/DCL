@@ -68,7 +68,7 @@ The original DVD (CVPR 2024) dataset (1920x1080 size) can be downloaded from the
 - **DrivingHazy** dataset can be downloaded from [Baidu Drive](https://pan.baidu.com/s/1gQTV6F9bwnmKtmUohzi1Nw#list/path=%2F)(ei4j).
 - **InternetHazy** dataset can be downloaded from [Baidu Drive](https://pan.baidu.com/s/1WIZNwFH-re8ty6zJPjct6g#list/path=%2F)(p39a).
 
-For users who use Google Drive, you can download GoProHazy, DrivingHazy, and InternetHazy datasets using this [link](https://drive.google.com/drive/folders/11CmFXT32a3QkCXc76-J_Wx2kgpE_hALu?dmr=1&ec=wgc-drive-globalnav-goto)
+Google Drive users can download the GoProHazy, DrivingHazy, and InternetHazy datasets via this [link](https://drive.google.com/drive/folders/11CmFXT32a3QkCXc76-J_Wx2kgpE_hALu?dmr=1&ec=wgc-drive-globalnav-goto)
 
 
 ## 🚀 Preprocess dataset
@@ -126,8 +126,8 @@ train_video/hazy_video/7_hazy_video 8 6 5 7
 ```
 
 |    the folder of current frame t  |t idx|t matched idx|t-1 matched idx|t+1 matched idx|
-|-----------------------------------|-------|-----------|---------------|---------------|
-|train_video/hazy_video/7_hazy_video|   7   |     5     |       5       |       6       |
+|:---------------------------------:|:---:|:-----------:|:-------------:|:-------------:|
+|train_video/hazy_video/7_hazy_video|  7  |       5     |       5       |       6       |
 
 
 ## 🏋️ Training DCL

@@ -139,7 +139,7 @@ python train.py --model_name DCL
 cd DCL
 tensorboard --logdir=./logger/DCL
 ```
-To visualize locally from a remote server, run `ssh -L 1xxxx:127.0.0.1:1xxx -p xxxxx root@serverIP` to set up the tunnel, then use the command above. Finally, open http://localhost:16006/ in your browser for training visualization.
+To visualize locally from a remote server, run `ssh -L 16006:127.0.0.1:6006 -p xxxxx root@serverIP` to set up the tunnel, then use the command above. Finally, open http://localhost:16006/ in your browser for training visualization.
 
 ## ⚡ Inference DCL on GoProHazy
 

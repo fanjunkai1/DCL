@@ -184,7 +184,7 @@ Our DCL achieved state-of-the-art performance on *GoProHazy* and *DENSE-Fog* dat
 
 ## 🎓 Citation
 
-If you find the code helpful in your resarch or work, please cite the following paper(s).
+If you find the code helpful in your research or work, please cite the following paper(s).
 
 ```bibtex
 @inproceedings{fan2025depth,
@@ -208,7 +208,7 @@ If you find the code helpful in your resarch or work, please cite the following 
 This code is based on the [Monodepth2](https://github.com/nianticlabs/monodepth2). Thank them for their outstanding work.
 
 ## 📧 Contact
-Should you have any question or suggestion, please contact junkai.fan@njust.edu.cn.
+If you have any questions or suggestions, please contact junkai.fan@njust.edu.cn
 
 ## 🎫 License
 
@@ -217,29 +217,6 @@ This work is licensed under the Apache License, Version 2.0 (as defined in the [
 By downloading and using the code and model you agree to the terms in the  [LICENSE](LICENSE.txt).
 
 [![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

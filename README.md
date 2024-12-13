@@ -29,13 +29,16 @@ We propose a novel depth-centric learning framework that integrates the atmosphe
   <img src="doc/demo.gif" alt="example input output gif" width="600" />
 </p>
 
+For more **video demos**, please refer to our [project homepage](https://fanjunkai1.github.io/projectpage/DCL/index.html).
+
 ## 📢 News
 - [13-12-2024] We created the [project homepage](https://fanjunkai1.github.io/projectpage/DCL/index.html) and the GitHub README.
 
 ## DCL Pipeline
 
+The pipeline of our Depth-Centric Learning (DCL) framework that effectively integrates the atmospheric scattering model with the brightness consistency constraint through shared depth prediction. D_MFIR enhances high-frequency detail recovery in dehazed frames, while DMDR reduces black holes in depth maps caused by weakly textured regions.
 <p align="center">
-  <img src="doc/pipeline.png" width="800" height='500' />
+  <img src="doc/pipeline.png" width="750" height='500' />
 </p>
 
 ## ⚙️ Dependencies and Installation

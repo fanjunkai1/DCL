@@ -1,20 +1,28 @@
-# Depth-Centric Dehazing and Depth-Estimation from Real-World Hazy Driving Video (AAAI 2025)
+<div align="center">
 
+<h1>Depth-Centric Dehazing and Depth-Estimation from Real-World Hazy Driving Video</h1>
 
-This repository represents the official implementation of the paper titled "Depth-Centric Dehazing and Depth-Estimation from Real-World Hazy Driving Video".
+<div>
+    <a href='https://fanjunkai1.github.io/' target='_blank'>Junkai Fan</a><sup>1</sup>&emsp;
+    <a href='https://scholar.google.com/citations?user=ORn7aZcAAAAJ&hl=zh-CN' target='_blank'>Kun Wang</a><sup>1</sup>&emsp;
+    <a href='https://yanzq95.github.io/' target='_blank'>Zhiqiang Yan</a><sup>1</sup>&emsp;
+    <a href='https://cschenxiang.github.io/' target='_blank'>Xiang Chen</a><sup>2</sup>&emsp;
+    <a target='_blank'>Shangbing Gao</a><sup>1</sup>&emsp;
+    <a href='https://scholar.google.com/citations?user=iGPEwQsAAAAJ&hl=zh-CN' target='_blank'>Jun Li</a><sup>1</sup>&emsp;
+    <a href='https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN' target='_blank'>Jian Yang</a><sup>1</sup>
+</div>
 
-[![Website](doc/badge-website.svg)](https://fanjunkai1.github.io/projectpage/DCL/index.html)
+<div>
+    <sup>1</sup>PCA Lab, Nanjing University of Science and Technology<br><sup>2</sup>Huaiyin Institute of Technology
+</div>
 
-[Junkai Fan](https://fanjunkai1.github.io/),
-[Kun Wang](https://github.com/w2kun),
-[Zhiqiang Yan](https://yanzq95.github.io/),
-[Xiang Chen](https://cschenxiang.github.io/),
-[Shangbing Gao](),
-[Jun Li](https://sites.google.com/view/junlineu/)
-[Jian Yang](https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN)
+<div>
+    <h4 align="center">
+        <a href="" target='_blank'>AAAI 2025</a>
+    </h4>
+</div>
+</div>
 
-
-PCA Lab, Nanjing University of Science and Technology
 
 We propose a novel depth-centric learning framework that integrates the atmospheric scattering model (ASM) with the brightness consistency constraint (BCC) constraint. Our key idea is that both ASM and BCC rely on a shared depth estimation network. This network simultaneously exploits adjacent dehazed frames to enhance depth estimation via BCC and uses the refined depth cues to more effectively remove haze through ASM.
 

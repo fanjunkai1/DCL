@@ -17,9 +17,9 @@
 </div>
 
 <div>
-    <h4 align="center">
+    <h2 align="center">
         <a href="" target='_blank'>AAAI 2025</a>
-    </h4>
+    </h2>
 </div>
 </div>
 
@@ -32,7 +32,11 @@ We propose a novel depth-centric learning framework that integrates the atmosphe
 ## 📢 News
 - [13-12-2024] We created the [project homepage](https://fanjunkai1.github.io/projectpage/DCL/index.html) and the GitHub README.
 
+## DCL Pipeline
 
+<p align="center">
+  <img src="doc/pipeline.png" width="800" height='500' />
+</p>
 
 ## ⚙️ Dependencies and Installation
 

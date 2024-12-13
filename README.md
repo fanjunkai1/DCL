@@ -148,7 +148,7 @@ To visualize locally from a remote server, run `ssh -L 16006:127.0.0.1:6006 -p x
 
 ## ⚡ Inference DCL on GoProHazy
 
-Move the trained model from `./logger/DCL/models` to the `./models/DCL folder`, or use our pre-trained model, which can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1sNgOyh-DIuxG3sdty_D24Ugo35qJ7dlr). Then, execute the following command::
+Move the trained model from `./logger/DCL/models` to the `./models/DCL folder`, or use our pre-trained model, which can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1sNgOyh-DIuxG3sdty_D24Ugo35qJ7dlr). Then, execute the following command:
 
 ```bash
 python test_gopro_hazy.py --image_path ./data/gopro_data/test_video/hazy_video/24_hazy_video

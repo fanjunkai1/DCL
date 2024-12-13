@@ -25,15 +25,13 @@
 
 We propose a novel depth-centric learning framework that integrates the atmospheric scattering model (ASM) with the brightness consistency constraint (BCC) constraint. Our key idea is that both ASM and BCC rely on a shared depth estimation network. This network simultaneously exploits adjacent dehazed frames to enhance depth estimation via BCC and uses the refined depth cues to more effectively remove haze through ASM.
 
-![teaser](doc/video_frame_results.png)
+<p align="center">
+  <img src="doc/demo.gif" alt="example input output gif" width="600" />
+</p>
 
 ## 📢 News
 - [13-12-2024] We created the [project homepage](https://fanjunkai1.github.io/projectpage/DCL/index.html) and the GitHub README.
 
-## 🎬 Video demo
-To demonstrate the stability of the proposed method, we separately compared it with the latest SoTA video dehazing (e.g., MAP-Net, DVD) and monocular depth estimation methods (e.g., Mono-ViFI, Lite-Mono) on GoProHazy. 
-
-https://github.com/user-attachments/assets/55369027-acf9-4e47-83a8-dfa2f982bdfc
 
 
 ## ⚙️ Dependencies and Installation

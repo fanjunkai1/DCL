@@ -149,13 +149,56 @@ Move the trained model from ./logger/DCL/models to the ./models/DCL folder, and 
 python test_gopro_hazy.py --image_path ./data/gopro_data/test_video/hazy_video/24_hazy_video
 ```
 
-## ⚡ Inference DCL on DENSE-Fog
+## 🎮 Inference DCL on DENSE-Fog
 
 ```bash
 python test_dense_fog.py --image_path /opt/data/common/SeeingThroughFog/SeeingThroughFogCompressedExtracted --dataset densefog --load_weights_folder ./models/DCL
 python test_dense_fog.py --image_path /opt/data/common/SeeingThroughFog/SeeingThroughFogCompressedExtracted --dataset lightfog --load_weights_folder ./models/DCL
 ```
+The output test results are saved in the `./outputs` folder.
 
+
+## 🎓 Citation
+If you are interested in this work, please consider citing:
+
+```bibtex
+@inproceedings{fan2025depth,
+  title={Depth-Centric Dehazing and Depth-Estimation from Real-World Hazy Driving Video},
+  author={Fan, Junkai and Wang, Kun and Yan, Zhiqiang and Chen, Xiang and Gao, Shangbing and Li, Jun and Yang, Jian},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  pages={xxxxx--xxxxx},
+  year={2025}
+}
+
+@inproceedings{fan2024driving,
+  title={Driving-Video Dehazing with Non-Aligned Regularization for Safety Assistance},
+  author={Fan, Junkai and Weng, Jiangwei and Wang, Kun and Yang, Yijun and Qian, Jianjun and Li, Jun and Yang, Jian},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={26109--26119},
+  year={2024}
+}
+
+@article{fan2023non,
+  title={Non-aligned supervision for Real Image Dehazing},
+  author={Fan, Junkai and Guo, Fei and Qian, Jianjun and Li, Xiang and Li, Jun and Yang, Jian},
+  journal={arXiv preprint arXiv:2303.04940},
+  year={2023}
+}
+```
+
+## 🤗 Acknowledgment
+This code is based on the [Monodepth2](https://github.com/nianticlabs/monodepth2). Thank them for their outstanding work.
+
+## 📧 Contact
+Should you have any question or suggestion, please contact junkai.fan@njust.edu.cn.
+
+## 🎫 License
+
+This work is licensed under the Apache License, Version 2.0 (as defined in the [LICENSE](LICENSE.txt)).
+
+By downloading and using the code and model you agree to the terms in the  [LICENSE](LICENSE.txt).
+
+[![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
 
 
 

@@ -58,5 +58,29 @@ pip install -r requirements.txt
 ```
 
 
+## Download and Preprocess dataset
+
+- **GoProHazy** dataset can be downloaded from [Baidu Drive](https://pan.baidu.com/s/1u_jFzZtUhG1528e1kkGmUQ#list/path=%2F)(hbih).
+- **DrivingHazy** dataset can be downloaded from [Baidu Drive](https://pan.baidu.com/s/1gQTV6F9bwnmKtmUohzi1Nw#list/path=%2F)(ei4j).
+- **InternetHazy** dataset can be downloaded from [Baidu Drive](https://pan.baidu.com/s/1WIZNwFH-re8ty6zJPjct6g#list/path=%2F)(p39a).
+
+For users who use Google Drive, you can download our dataset using this [link](https://drive.google.com/drive/folders/11CmFXT32a3QkCXc76-J_Wx2kgpE_hALu?dmr=1&ec=wgc-drive-globalnav-goto)
+
+
+## Preprocess dataset
+
+All videos in these datasets are initially recorded at a resolution of 1920×1080. After applying distortion correction and cropping based on the intrinsic parameters K of the GoPro 11 camera (calibrated by us), the resolutions of GoProHazy and DrivingHazy are 1600×512.
+
+1. **Camera Calibration**. Download the chessboard image set, and place the data in the ./calibrate folder, then run the following command:
+   
+```bash
+python calibrate.py
+```
+2. **Undistort and Crop**. Use the calibration results to undistort and crop the 1920x1080 image to 1600x512, then save the new intrinsic parameters. The command is as follows:
+   
+```bash
+python preprocess.py
+```
+
 
 

@@ -71,7 +71,7 @@ For users who use Google Drive, you can download our dataset using this [link](h
 
 All videos in these datasets are initially recorded at a resolution of 1920×1080. After applying distortion correction and cropping based on the intrinsic parameters K of the GoPro 11 camera (calibrated by us), the resolutions of GoProHazy and DrivingHazy are 1600×512.
 
-1. **Camera Calibration**. Download the chessboard image set, and place the data in the ./calibrate folder, then run the following command:
+1. **Camera Calibration**. Download the chessboard image set from [here](https://drive.google.com/drive/folders/12b_XvtUs7oc9HjfoS1JepmUJC2eI18vm), and place the data in the `./calibrate folder`, then run the following command:
    
 ```bash
 python calibrate.py
@@ -81,7 +81,8 @@ python calibrate.py
 ```bash
 python preprocess.py
 ```
-The data organization for the ./preprocess folder is shown below:
+
+The data organization for the `./preprocess` folder is shown below:
 
 ~~~
 preprocess
@@ -106,6 +107,10 @@ preprocess
             |--hazy_video
             |--intrinsic.npy
 ~~~
+
+**Note**: The preprocessed GoProHazy dataset can be downloaded [here](https://drive.google.com/drive/folders/12b_XvtUs7oc9HjfoS1JepmUJC2eI18vm).
+
+## 
 
 
 

@@ -158,8 +158,13 @@ python test_dense_fog.py --image_path /opt/data/common/SeeingThroughFog/SeeingTh
 The output test results are saved in the `./outputs` folder.
 
 
+## 🔍 Results
+
+Our DCL achieved state-of-the-art performance on *GoProHazy* and *DENSE-Fog* datasets,
+
 ## 🎓 Citation
-If you are interested in this work, please consider citing:
+
+If you find the code helpful in your resarch or work, please cite the following paper(s).
 
 ```bibtex
 @inproceedings{fan2025depth,
@@ -176,13 +181,6 @@ If you are interested in this work, please consider citing:
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
   pages={26109--26119},
   year={2024}
-}
-
-@article{fan2023non,
-  title={Non-aligned supervision for Real Image Dehazing},
-  author={Fan, Junkai and Guo, Fei and Qian, Jianjun and Li, Xiang and Li, Jun and Yang, Jian},
-  journal={arXiv preprint arXiv:2303.04940},
-  year={2023}
 }
 ```
 

@@ -138,7 +138,7 @@ train_video/hazy_video/7_hazy_video 8 6 5 7
 python train.py --model_name DCL
 ```
 
-2. **Training Visualization**. The training and validation log files for DCL are saved in the train and val folders under ./logger/DCL. They can be visualized in TensorBoard using the following command:
+2. **Training Visualization**. The training and validation log files for DCL are saved in the train and val folders under `./logger/DCL`. They can be visualized in TensorBoard using the following command:
 
 ```bash
 cd DCL
@@ -148,7 +148,7 @@ To visualize locally from a remote server, run `ssh -L 16006:127.0.0.1:6006 -p x
 
 ## ⚡ Inference DCL on GoProHazy
 
-Move the trained model from ./logger/DCL/models to the ./models/DCL folder, and then execute the following command:
+Move the trained model from `./logger/DCL/models` to the `./models/DCL folder`, or use our pre-trained model, which can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1sNgOyh-DIuxG3sdty_D24Ugo35qJ7dlr). Then, execute the following command::
 
 ```bash
 python test_gopro_hazy.py --image_path ./data/gopro_data/test_video/hazy_video/24_hazy_video

@@ -1,0 +1,1 @@
+Store the chessboard images used for calibration.

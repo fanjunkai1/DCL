@@ -23,7 +23,6 @@
 </div>
 </div>
 
-
 We propose a novel depth-centric learning framework that integrates the atmospheric scattering model (ASM) with the brightness consistency constraint (BCC) constraint. Our key idea is that both ASM and BCC rely on a shared depth estimation network. This network simultaneously exploits adjacent dehazed frames to enhance depth estimation via BCC and uses the refined depth cues to more effectively remove haze through ASM.
 
 ![teaser](doc/video_frame_results.png)
@@ -35,7 +34,6 @@ We propose a novel depth-centric learning framework that integrates the atmosphe
 To demonstrate the stability of the proposed method, we separately compared it with the latest SoTA video dehazing (e.g., MAP-Net, DVD) and monocular depth estimation methods (e.g., Mono-ViFI, Lite-Mono) on GoProHazy. 
 
 https://github.com/user-attachments/assets/55369027-acf9-4e47-83a8-dfa2f982bdfc
-
 
 
 ## ⚙️ Dependencies and Installation
@@ -56,7 +54,6 @@ conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit
 ```bash
 pip install -r requirements.txt
 ```
-
 
 ## Download and Preprocess dataset
 
@@ -115,7 +112,6 @@ preprocess
 ## 🏃 Data Split
 
 The data format in the `./split/gopro_fan` folder and the corresponding explanation are as follows:
-
 ```bash
 ......
 train_video/hazy_video/7_hazy_video 6 5 4 5
@@ -124,15 +120,53 @@ train_video/hazy_video/7_hazy_video 8 6 5 7
 ......
 ```
 
-
 |     the folder of current frame t     | t index | t matched index | t-1 matched index | t+1 matched index |
 |---------------------------------------|---------|-----------------|-------------------|-------------------|
 | train_video/hazy_video/7_hazy_video   | 7       | 5               | 5                 | 6                 |
 
 
-## ⚡ Inference DCL
+## 🏋️ Training DCL
 
-1. Move the trained model from `./logger/DCL/models` to the `./models/DCL` folder, or you can also download pretrained models form [GoogleDrive](https://drive.google.com/drive/folders/12b_XvtUs7oc9HjfoS1JepmUJC2eI18vm)
+1. **Training model**. Place the *gopro_data* (preprocessed GoProHazy) folder, downloaded from Google Drive, into the `./data` folder, and then execute the following command:
+
+```bash
+python train.py --model_name DCL
+```
+
+2. **Training Visualization**. 
+
+
+
+## ⚡ Inference DCL on GoProHazy test set
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

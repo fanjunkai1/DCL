@@ -36,7 +36,7 @@ For more **video demos**, please refer to our [project homepage](https://fanjunk
 
 ## DCL Pipeline
 
-The pipeline of our Depth-Centric Learning (DCL) framework that effectively integrates the atmospheric scattering model with the brightness consistency constraint through shared depth prediction. D_MFIR enhances high-frequency detail recovery in dehazed frames, while DMDR reduces black holes in depth maps caused by weakly textured regions.
+Our Depth-Centric Learning (DCL) framework integrates the atmospheric scattering model with a brightness consistency constraint via shared depth prediction. $D_{MFIR}$ improves high-frequency detail in dehazed frames, while $D_{MDR}$ reduces black holes in depth maps from weakly textured areas.
 <p align="center">
   <img src="doc/pipeline.png" width="750" height='500' />
 </p>
@@ -126,8 +126,8 @@ train_video/hazy_video/7_hazy_video 8 6 5 7
 ```
 
 |    the folder of current frame t  |t idx|t matched idx|t-1 matched idx|t+1 matched idx|
-|-----------------------------------|-------|---------------|-----------------|-----------------|
-|train_video/hazy_video/7_hazy_video|   7   |       5       |        5        |        6        |
+|-----------------------------------|-------|-----------|---------------|---------------|
+|train_video/hazy_video/7_hazy_video|   7   |     5     |       5       |       6       |
 
 
 ## 🏋️ Training DCL
@@ -166,6 +166,21 @@ The output test results are saved in the `./outputs` folder.
 ## 🔍 Results
 
 Our DCL achieved state-of-the-art performance on *GoProHazy* and *DENSE-Fog* datasets,
+
+<details open> 
+<summary>Visual Comparison (click to expand)</summary>
+
+- Visual comparison on GoProHazy
+  <p align="center">
+  <img width="750" src="doc/video_dehazing-results.png">
+  </p>
+- Visual comparison on DENSE-Fog
+  <p align="center">
+  <img width="750" src="doc/depth_estimation-results.png">
+  </p>
+  </p>
+  
+  </details>
 
 ## 🎓 Citation
 

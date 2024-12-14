@@ -205,7 +205,7 @@ If you find the code helpful in your research or work, please cite the following
 ```
 
 ## 🤗 Acknowledgment
-This code is based on the [Monodepth2](https://github.com/nianticlabs/monodepth2). Thank them for their outstanding work.
+This code is based on the [Monodepth2](https://github.com/nianticlabs/monodepth2) and [DVD](https://github.com/fanjunkai1/DVD). Thank them for their outstanding work.
 
 ## 📧 Contact
 If you have any questions or suggestions, please contact junkai.fan@njust.edu.cn

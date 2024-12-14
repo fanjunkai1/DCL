@@ -1,3 +1,5 @@
+<p align=center><img src="doc/logo.jpg" width="400px"> </p>
+
 <div align="center">
 
 <h1>Depth-Centric Dehazing and Depth-Estimation from Real-World Hazy Driving Video</h1>

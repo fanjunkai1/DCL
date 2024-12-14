@@ -32,7 +32,9 @@
 
 </div>
 
+<div style="text-align: justify;">
 We propose a novel depth-centric learning (DCL) framework that integrates the atmospheric scattering model (ASM) with the brightness consistency constraint (BCC) constraint. Our key idea is that both ASM and BCC rely on a shared depth estimation network. This network simultaneously exploits adjacent dehazed frames to enhance depth estimation via BCC and uses the refined depth cues to more effectively remove haze through ASM.
+</div>
 
 <p align="center">
   <img src="doc/demo.gif" alt="example input output gif" width="600" />
@@ -46,7 +48,10 @@ For more **video demos**, please refer to our [project homepage](https://fanjunk
 
 ## DCL Pipeline
 
+<div style="text-align: justify;">
 Our Depth-Centric Learning (DCL) framework integrates the atmospheric scattering model with a brightness consistency constraint via shared depth prediction. $D_{MFIR}$ improves high-frequency detail in dehazed frames, while $D_{MDR}$ reduces black holes in depth maps from weakly textured areas.
+</div>
+
 <p align="center">
   <img src="doc/pipeline.png" width="750" height='500' />
 </p>

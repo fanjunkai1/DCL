@@ -13,7 +13,7 @@
 </div>
 
 <div>
-    <sup>1</sup>PCA Lab, <sup>2</sup>IMAG Lab Nanjing University of Science and Technology<br><sup>3</sup>Huaiyin Institute of Technology
+    <sup>1</sup>PCA Lab, <sup>2</sup>IMAG Lab, Nanjing University of Science and Technology<br><sup>3</sup>Huaiyin Institute of Technology
 </div>
 
 <div>

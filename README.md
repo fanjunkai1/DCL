@@ -23,6 +23,15 @@
 </div>
 </div>
 
+<div align="center">
+    
+[![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)]()
+[![Website](doc/badge-website.svg)](https://fanjunkai1.github.io/projectpage/DCL/index.html)
+[![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=fanjunkai1/DCL)
+
+</div>
+
 We propose a novel depth-centric learning framework that integrates the atmospheric scattering model (ASM) with the brightness consistency constraint (BCC) constraint. Our key idea is that both ASM and BCC rely on a shared depth estimation network. This network simultaneously exploits adjacent dehazed frames to enhance depth estimation via BCC and uses the refined depth cues to more effectively remove haze through ASM.
 
 <p align="center">

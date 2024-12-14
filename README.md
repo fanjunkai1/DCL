@@ -8,7 +8,7 @@
     <a href='https://yanzq95.github.io/' target='_blank'>Zhiqiang Yan</a><sup>1</sup>&emsp;
     <a href='https://cschenxiang.github.io/' target='_blank'>Xiang Chen</a><sup>2</sup>&emsp;
     <a target='_blank'>Shangbing Gao</a><sup>3</sup>&emsp;
-    <a href='https://scholar.google.com/citations?user=iGPEwQsAAAAJ&hl=zh-CN' target='_blank'>Jun Li</a><sup>1</sup>&emsp;
+    <a href='https://sites.google.com/view/junlineu/' target='_blank'>Jun Li</a><sup>1</sup>&emsp;
     <a href='https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN' target='_blank'>Jian Yang</a><sup>1</sup>
 </div>
 
@@ -47,6 +47,7 @@ For more **video demos**, please refer to our [project homepage](https://fanjunk
 ## DCL Pipeline
 
 Our Depth-Centric Learning (DCL) framework integrates the atmospheric scattering model with a brightness consistency constraint via shared depth prediction. $D_{MFIR}$ improves high-frequency detail in dehazed frames, while $D_{MDR}$ reduces black holes in depth maps from weakly textured areas.
+
 <p align="center">
   <img src="doc/pipeline.png" width="750" height='500' />
 </p>
@@ -180,11 +181,11 @@ Our DCL achieved state-of-the-art performance on *GoProHazy* and *DENSE-Fog* dat
 <details open> 
 <summary>Visual Comparison (click to expand)</summary>
 
-- Visual comparison on GoProHazy
+- Visual comparison for video dehazing
   <p align="center">
   <img width="750" src="doc/video_dehazing-results.png">
   </p>
-- Visual comparison on DENSE-Fog
+- Visual comparison for depth estimation
   <p align="center">
   <img width="750" src="doc/depth_estimation-results.png">
   </p>

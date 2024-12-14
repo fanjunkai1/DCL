@@ -6,14 +6,14 @@
     <a href='https://fanjunkai1.github.io/' target='_blank'>Junkai Fan</a><sup>1</sup>&emsp;
     <a href='https://github.com/w2kun' target='_blank'>Kun Wang</a><sup>1</sup>&emsp;
     <a href='https://yanzq95.github.io/' target='_blank'>Zhiqiang Yan</a><sup>1</sup>&emsp;
-    <a href='https://cschenxiang.github.io/' target='_blank'>Xiang Chen</a><sup>1</sup>&emsp;
-    <a target='_blank'>Shangbing Gao</a><sup>2</sup>&emsp;
+    <a href='https://cschenxiang.github.io/' target='_blank'>Xiang Chen</a><sup>2</sup>&emsp;
+    <a target='_blank'>Shangbing Gao</a><sup>3</sup>&emsp;
     <a href='https://scholar.google.com/citations?user=iGPEwQsAAAAJ&hl=zh-CN' target='_blank'>Jun Li</a><sup>1</sup>&emsp;
     <a href='https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN' target='_blank'>Jian Yang</a><sup>1</sup>
 </div>
 
 <div>
-    <sup>1</sup>PCA Lab, Nanjing University of Science and Technology<br><sup>2</sup>Huaiyin Institute of Technology
+    <sup>1</sup>PCA Lab, <sup>2</sup>IMAG Lab, Nanjing University of Science and Technology<br><sup>3</sup>Huaiyin Institute of Technology
 </div>
 
 <div>
@@ -23,7 +23,16 @@
 </div>
 </div>
 
-We propose a novel depth-centric learning framework that integrates the atmospheric scattering model (ASM) with the brightness consistency constraint (BCC) constraint. Our key idea is that both ASM and BCC rely on a shared depth estimation network. This network simultaneously exploits adjacent dehazed frames to enhance depth estimation via BCC and uses the refined depth cues to more effectively remove haze through ASM.
+<div align="center">
+    
+[![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)]()
+[![Website](doc/badge-website.svg)](https://fanjunkai1.github.io/projectpage/DCL/index.html)
+[![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=fanjunkai1/DCL)
+
+</div>
+
+We propose a novel depth-centric learning (DCL) framework that integrates the atmospheric scattering model (ASM) with the brightness consistency constraint (BCC) constraint. Our key idea is that both ASM and BCC rely on a shared depth estimation network. This network simultaneously exploits adjacent dehazed frames to enhance depth estimation via BCC and uses the refined depth cues to more effectively remove haze through ASM.
 
 <p align="center">
   <img src="doc/demo.gif" alt="example input output gif" width="600" />
@@ -32,6 +41,7 @@ We propose a novel depth-centric learning framework that integrates the atmosphe
 For more **video demos**, please refer to our [project homepage](https://fanjunkai1.github.io/projectpage/DCL/index.html).
 
 ## 📢 News
+- [14-12-2024] Add training and inference code (this repository).
 - [13-12-2024] We created the [project homepage](https://fanjunkai1.github.io/projectpage/DCL/index.html) and the GitHub README.
 
 ## DCL Pipeline
@@ -205,7 +215,7 @@ If you find the code helpful in your research or work, please cite the following
 ```
 
 ## 🤗 Acknowledgment
-This code is based on the [Monodepth2](https://github.com/nianticlabs/monodepth2). Thank them for their outstanding work.
+This code is based on the [Monodepth2](https://github.com/nianticlabs/monodepth2) and [DVD](https://github.com/fanjunkai1/DVD). Thank them for their outstanding work.
 
 ## 📧 Contact
 If you have any questions or suggestions, please contact junkai.fan@njust.edu.cn

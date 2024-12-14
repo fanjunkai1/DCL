@@ -32,6 +32,7 @@ We propose a novel depth-centric learning framework that integrates the atmosphe
 For more **video demos**, please refer to our [project homepage](https://fanjunkai1.github.io/projectpage/DCL/index.html).
 
 ## 📢 News
+- [14-12-2024] Add training and inference code (this repository).
 - [13-12-2024] We created the [project homepage](https://fanjunkai1.github.io/projectpage/DCL/index.html) and the GitHub README.
 
 ## DCL Pipeline

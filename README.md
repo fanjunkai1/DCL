@@ -15,15 +15,15 @@
 </div>
 
 <div>
-    <sup>1</sup>PCA Lab, Nanjing University of Science and Technology<br><sup>3</sup>Huaiyin Institute of Technology
+    <sup>1</sup>PCA Lab, Nanjing University of Science and Technology<br><sup>2</sup>Huaiyin Institute of Technology
 </div>
 
 <div>
     <h2 align="center">
-        <a href="" target='_blank'>AAAI 2025</a>
+        <a href="https://aaai.org/conference/aaai/aaai-25/" target='_blank'>AAAI 2025</a>
     </h2>
     <h2 align="center">
-        <a href="https://fanjunkai1.github.io/projectpage/DCL/chinese_interpretation.html" target='_blank'>中文解读</a>
+        <a href="https://fanjunkai1.github.io/projectpage/DCL/chinese_interpretation.html" target='_blank'>[中文解读]</a>
     </h2>
 </div>
 </div>
@@ -46,6 +46,7 @@ We propose a novel depth-centric learning (DCL) framework that integrates the at
 For more **video demos**, please refer to our [project homepage](https://fanjunkai1.github.io/projectpage/DCL/index.html).
 
 ## 📢 News
+- [16-12-2024] The "Chinese Interpretation" version of DCL has been added.
 - [14-12-2024] Add training and inference code (this repository).
 - [13-12-2024] We created the [project homepage](https://fanjunkai1.github.io/projectpage/DCL/index.html) and the GitHub README.
 

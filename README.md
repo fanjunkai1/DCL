@@ -1,7 +1,7 @@
 <p align=center><img src="doc/logo.jpg" width="400px", height="100px"> </p>
 
 <div align="center">
-    <h1>Depth-Centric Dehazing and Depth-Estimation from Real-World Hazy Driving Video</h1>
+    <h2>Depth-Centric Dehazing and Depth-Estimation from Real-World Hazy Driving Video</h2>
     <div>
         <a href='https://fanjunkai1.github.io/' target='_blank'>Junkai Fan</a><sup>1</sup>&emsp;
         <a href='https://github.com/w2kun' target='_blank'>Kun Wang</a><sup>1</sup>&emsp;

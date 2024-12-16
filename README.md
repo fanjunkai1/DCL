@@ -40,9 +40,10 @@ For more **video demos**, please refer to our [project homepage](https://fanjunk
 
 ## 📢 News
 - [16-12-2024] The "Chinese Interpretation" version of DCL has been added.
-- [14-12-2024] Add training and inference code (this repository).
+- [14-12-2024] Training and inference code is released. (this repository).
 - [13-12-2024] We created the [project homepage](https://fanjunkai1.github.io/projectpage/DCL/index.html) and the GitHub README.
-
+- [10-12-2024] Accepted to AAA 2025.
+  
 ## DCL Pipeline
 
 Our Depth-Centric Learning (DCL) framework integrates the atmospheric scattering model with a brightness consistency constraint via shared depth prediction. $D_{MFIR}$ improves high-frequency detail in dehazed frames, while $D_{MDR}$ reduces black holes in depth maps from weakly textured areas.

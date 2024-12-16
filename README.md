@@ -1,29 +1,27 @@
-<p align=center><img src="doc/logo.jpg" width="400px", height="95px"> </p>
+<p align=center><img src="doc/logo.jpg" width="400px", height="100px"> </p>
 
 <div align="center">
-<h1>Depth-Centric Dehazing and Depth-Estimation from Real-World Hazy Driving Video</h1>
-<div>
-    <a href='https://fanjunkai1.github.io/' target='_blank'>Junkai Fan</a><sup>1</sup>&emsp;
-    <a href='https://github.com/w2kun' target='_blank'>Kun Wang</a><sup>1</sup>&emsp;
-    <a href='https://yanzq95.github.io/' target='_blank'>Zhiqiang Yan</a><sup>1</sup>&emsp;
-    <a href='https://cschenxiang.github.io/' target='_blank'>Xiang Chen</a><sup>1</sup>&emsp;
-    <a target='_blank'>Shangbing Gao</a><sup>2</sup>&emsp;
-    <a href='https://sites.google.com/view/junlineu/' target='_blank'>Jun Li</a><sup>1</sup>&emsp;
-    <a href='https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN' target='_blank'>Jian Yang</a><sup>1</sup>
-</div>
-
-<div>
-    <sup>1</sup>PCA Lab, Nanjing University of Science and Technology<br><sup>2</sup>Huaiyin Institute of Technology
-</div>
-
-<div>
-    <h2 align="center">
-        <a href="https://aaai.org/conference/aaai/aaai-25/" target='_blank'>AAAI 2025</a>
-    </h2>
-    <h2 align="center">
-        <a href="https://fanjunkai1.github.io/projectpage/DCL/chinese_interpretation.html" target='_blank'>[中文解读]</a>
-    </h2>
-</div>
+    <h1>Depth-Centric Dehazing and Depth-Estimation from Real-World Hazy Driving Video</h1>
+    <div>
+        <a href='https://fanjunkai1.github.io/' target='_blank'>Junkai Fan</a><sup>1</sup>&emsp;
+        <a href='https://github.com/w2kun' target='_blank'>Kun Wang</a><sup>1</sup>&emsp;
+        <a href='https://yanzq95.github.io/' target='_blank'>Zhiqiang Yan</a><sup>1</sup>&emsp;
+        <a href='https://cschenxiang.github.io/' target='_blank'>Xiang Chen</a><sup>1</sup>&emsp;
+        <a target='_blank'>Shangbing Gao</a><sup>2</sup>&emsp;
+        <a href='https://sites.google.com/view/junlineu/' target='_blank'>Jun Li</a><sup>1</sup>&emsp;
+        <a href='https://scholar.google.com/citations?user=6CIDtZQAAAAJ&hl=zh-CN' target='_blank'>Jian Yang</a><sup>1</sup>
+    </div>
+    <div>
+        <sup>1</sup>PCA Lab, Nanjing University of Science and Technology<br><sup>2</sup>Huaiyin Institute of Technology
+    </div>
+    <div>
+        <h2 align="center">
+            <a href="https://aaai.org/conference/aaai/aaai-25/" target='_blank'>AAAI 2025</a>
+        </h2>
+        <h2 align="center">
+            <a href="https://fanjunkai1.github.io/projectpage/DCL/chinese_interpretation.html" target='_blank'>[中文解读]</a>
+        </h2>
+    </div>
 </div>
 
 <div align="center">

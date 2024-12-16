@@ -23,7 +23,7 @@
         <a href="" target='_blank'>AAAI 2025</a>
     </h2>
     <h2 align="center">
-        <a href="https://fanjunkai1.github.io/DCL/chinese_interpretation.html" target='_blank'>中文解读</a>
+        <a href="https://fanjunkai1.github.io/projectpage/DCL/chinese_interpretation.html" target='_blank'>中文解读</a>
     </h2>
 </div>
 </div>

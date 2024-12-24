@@ -42,7 +42,7 @@ For more **video demos**, please refer to our [project homepage](https://fanjunk
 - [16-12-2024] The "Chinese Interpretation" version of DCL has been added.
 - [14-12-2024] Training and inference code is released. (this repository).
 - [13-12-2024] We created the [project homepage](https://fanjunkai1.github.io/projectpage/DCL/index.html) and the GitHub README.
-- [10-12-2024] Accepted to AAA 2025.
+- [10-12-2024] Accepted to AAAI 2025.
   
 ## DCL Pipeline
 

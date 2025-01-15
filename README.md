@@ -25,6 +25,7 @@
     
 [![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/pdf/2412.11395)
 [![Website](doc/badge-website.svg)](https://fanjunkai1.github.io/projectpage/DCL/index.html)
+[![Video](https://img.shields.io/badge/YouTube-Video-c4302b?logo=youtube&logoColor=red)](https://www.youtube.com/watch?v=8FYw-MHksq4)
 [![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=fanjunkai1/DCL)
 

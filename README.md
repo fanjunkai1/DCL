@@ -4,7 +4,7 @@
     <h1>Depth-Centric Dehazing and Depth-Estimation from Real-World Hazy Driving Video (AAAI 2025)</h1>
     <div>
         <a href='https://fanjunkai1.github.io/' target='_blank'>Junkai Fan</a><sup>1</sup>&emsp;
-        <a href='https://github.com/w2kun' target='_blank'>Kun Wang</a><sup>1</sup>&emsp;
+        <a href='https://w2kun.github.io/' target='_blank'>Kun Wang</a><sup>1</sup>&emsp;
         <a href='https://yanzq95.github.io/' target='_blank'>Zhiqiang Yan</a><sup>1</sup>&emsp;
         <a href='https://cschenxiang.github.io/' target='_blank'>Xiang Chen</a><sup>1</sup>&emsp;
         <a target='_blank'>Shangbing Gao</a><sup>2</sup>&emsp;

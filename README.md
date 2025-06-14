@@ -203,7 +203,7 @@ If you find the code helpful in your research or work, please cite the following
   title={Depth-Centric Dehazing and Depth-Estimation from Real-World Hazy Driving Video},
   author={Fan, Junkai and Wang, Kun and Yan, Zhiqiang and Chen, Xiang and Gao, Shangbing and Li, Jun and Yang, Jian},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
-  pages={xxxxx--xxxxx},
+  pages={2852--2860},
   year={2025}
 }
 

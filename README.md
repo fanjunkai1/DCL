@@ -168,6 +168,8 @@ python test_gopro_hazy.py --image_path ./data/gopro_data/test_video/hazy_video/2
 
 ## 🎮 Inference DCL on DENSE-Fog
 
+**DENSE-Fog** dataset can be downloaded from [Baidu Drive](https://pan.baidu.com/s/1129ncxkj7C3Wsk_U3PaE_Q)(haiw).
+
 ```bash
 python test_dense_fog.py --image_path /opt/data/common/SeeingThroughFog/SeeingThroughFogCompressedExtracted --dataset densefog --load_weights_folder ./models/DCL
 python test_dense_fog.py --image_path /opt/data/common/SeeingThroughFog/SeeingThroughFogCompressedExtracted --dataset lightfog --load_weights_folder ./models/DCL
